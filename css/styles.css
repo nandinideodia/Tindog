@@ -1,0 +1,176 @@
+#title {
+    background-color: #ff4c68;
+    color: white;
+
+
+}
+
+h1{
+    font-family: 'Montserrat-Black',  sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15% ;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Navigation bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    padding: 0px 18px;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-size: 1.25rem;
+    font-family: "Montserrat-Light", sans-serif;
+}
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image  */
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 15%;
+    
+}
+
+@media (max-width: 990px) {
+    .title-image{
+        transform: rotate(0deg);
+    }
+
+
+}
+
+/* Feature */
+
+#features{
+    padding: 7% 15%;
+    background-color: #ffffff;
+
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+h3{
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 1.25rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.icon{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5 bold;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/* CTA  */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+
+.cta-line{
+    font-family: "Montserrat-Black", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 3% 15%;
+}
+
+.cta-btn{
+    margin: 2% 3% 2% 0;
+}
+
+/* footer  */
+
+#footer{
+    text-align: center;
+    background-color: #ffffff;
+
+}
+
+.fa-footer{
+    padding: 60px 10px 10px;
+}
